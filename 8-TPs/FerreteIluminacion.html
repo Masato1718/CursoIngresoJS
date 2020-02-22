@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Curso Ingreso UTN FRA</title>
+
+		<!--Estilos-->
+		<link rel="stylesheet" type="text/css" href="../estilo.css">
+		<link rel="stylesheet" type="text/css" href="../animacion.css">
+		<!--final de Estilos-->
+
+		<!--Lógica-Programación-->
+		<script type="text/javascript" src="jsFerreteIluminacion.js"></script>
+        <!--Final de Lógica-Programación -->
+		
+		
+		
+			
+<link rel="icon" type="image/x-icon" href="../favicon.ico">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	</head>
+	<body>
+
+
+<div class=" animated bounceIn header">
+    
+
+     <center><h5>TP <strong> Ejercicio 4</strong> </h5></center> 
+   <a  class="MiBotonUTNnav" onclick="location.href='index.html'" ><i class="far fa-hand-point-left"></i>Men&uacute; ejercicios</a> 
+
+</div>
+
+<div class="row">
+  <div class="col-3 col-s-3 menu">
+   
+  </div>
+
+  <div class="col-6 col-s-9">
+  	<form id="FormIngreso" class=" animated bounceInLeft" class=" animated bounceInLeft"class=" animated bounceInLeft">
+	   <h1>Ferrete iluminación</h1>
+	 			<input type="text"  placeholder="Cantidad de lámparas" id="Cantidad">
+				<SELECT id="Marca">
+					<OPTION >ArgentinaLuz</OPTION>
+					<OPTION >FelipeLamparas</OPTION>
+					<OPTION >JeLuz</OPTION>
+					<OPTION >HazIluminacion</OPTION>
+					<OPTION >Osram</OPTION>
+				</SELECT>
+					<input type="text" readonly placeholder="Precio con descuento" id="precioDescuento">
+				
+				<a  class="MiBotonUTNnav" onclick="CalcularPrecio()" >Calcular precio</a>
+	 </form>	
+  </div>
+
+  <div class="col-3 col-s-12">
+    <div class="aside animated bounceInUp">
+    		<h2>Enunciado:</h2>
+					<h3>
+		Las lámparas están  al mismo precio de $35 pesos final.
+		<br>A.	Si compra 6 o más  lamparitas bajo consumo tiene un descuento del 50%. 
+		<br>B.	Si compra 5  lamparitas bajo consumo marca "ArgentinaLuz" se hace un descuento del 40 % y si es de otra marca el descuento es del 30%.
+		<br>C.	Si compra 4  lamparitas bajo consumo marca "ArgentinaLuz" o “FelipeLamparas” se hace un descuento del 25 % y si es de otra marca el descuento es del 20%.
+		<br>D.	Si compra 3  lamparitas bajo consumo marca "ArgentinaLuz"  el descuento es del 15%, si es  “FelipeLamparas” se hace un descuento del 10 % y si es de otra marca un 5%.
+		<br>E.	Si el importe final con descuento suma más de $120  se debe sumar un 10% de ingresos brutos en informar del impuesto con el siguiente mensaje:
+		 ”IIBB Usted pago X”, siendo X el impuesto que se pagó. 
+
+				</h3>
+			
+			
+    </div>
+  </div>
+</div>
+
+<div class="footer">
+  
+  	<!--a class="MiBotonUTNnav" onclick="location.href='../index.html'" ><i class="fas fa-bars"></i>Men&uacute; Principal</a-->	
+  	<p>Curso de ingreso UTN FRA</p>
+</div>
+
+</body>
+</html>
